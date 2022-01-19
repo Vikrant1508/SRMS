@@ -1,0 +1,17 @@
+<center>
+
+<h1> LOGIN </h1>
+<%= form_with model: @login, local: true do |form| %>
+<p>
+<%= form.label :Username %><br>
+<%= form.text_field :Username %>
+</p>
+
+<p>
+<%= form.label :Password %><br>
+<%= form.text_field :Password %>
+</p>
+<p>
+    <%= form.submit %>
+  </p>
+<% end %>

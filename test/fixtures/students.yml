@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Roll_No.: 1
+  Name: MyString
+  Class: MyString
+  Mobile_No.: 1
+  Date_of_Birth: MyString
+
+two:
+  Roll_No.: 1
+  Name: MyString
+  Class: MyString
+  Mobile_No.: 1
+  Date_of_Birth: MyString
